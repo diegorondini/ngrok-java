@@ -5,7 +5,7 @@
             <version>11</version>
         </provides>
         <configuration>
-            <jdkHome>${env.JAVA_11_HOME}</jdkHome>
+            <jdkHome>/usr/lib/jvm/java-11</jdkHome>
         </configuration>
     </toolchain>
     <toolchain>
@@ -14,7 +14,7 @@
             <version>17</version>
         </provides>
         <configuration>
-            <jdkHome>${env.JAVA_17_HOME}</jdkHome>
+            <jdkHome>/usr/lib/jvm/java-17</jdkHome>
         </configuration>
     </toolchain>
 </toolchains>
